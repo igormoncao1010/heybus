@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2020 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="78.0952mm" height="19.5578mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6597.61 1652.28"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="680" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="800">
+	<font-face 
+		font-family="Gilroy ExtraBold">
+		<font-face-src>
+			<font-face-name name="Gilroy-ExtraBold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="!" horiz-adv-x="280" d="M80 250l120 0 30 250 0 200 -180 0 0 -200 30 -250zm60 -264c52,0 94.9974,42.9974 94.9974,94.9974 0,52 -42.9974,95.0026 -94.9974,95.0026 -52,0 -95.0026,-43.0026 -95.0026,-95.0026 0,-52 43.0026,-94.9974 95.0026,-94.9974z"/>
+   <glyph unicode="B" horiz-adv-x="600" d="M494 362.997c38,33.0026 60.9974,79.0026 60.9974,137.003 0,120.997 -98.9974,200 -220.997,200l-274 0 0 -700 294 0c124.997,0 226,80.9974 226,204.997 0,71.0026 -34,125.003 -86,158zm-160 187.003c36.9974,0 60.9974,-26 60.9974,-62 0,-36 -24.9974,-62 -60.9974,-62l-114 0 0 124 114 0zm20 -400l-134 0 0 134 134 0c40,0 66,-28 66,-67.0026 0,-38.9974 -26,-66.9974 -66,-66.9974z"/>
+   <glyph unicode="H" horiz-adv-x="660" d="M440 700l0 -268 -220 0 0 268 -160 0 0 -700 160 0 0 278 220 0 0 -278 160 0 0 700 -160 0z"/>
+   <glyph unicode="S" horiz-adv-x="584" d="M304.997 -14c152,0 260,80 260,214.997 0,148 -118.997,185.003 -224.997,217.003 -109.003,32.9974 -126,54.9974 -126,86.9974 0,28 24.9974,53.0026 74.9974,53.0026 64,0 97.0026,-31.0026 121.003,-81.0026l134.997 79.0026c-50.9974,102.997 -140.997,158 -256,158 -120.997,0 -234.997,-78 -234.997,-213.003 0,-134 102,-184 206,-212.997 104.997,-29.0026 144.997,-46 144.997,-89.0026 0,-26.9974 -18.9974,-56.9974 -94.9974,-56.9974 -79.0026,0 -122,38.9974 -147.003,96.9974l-138 -80c39.0026,-102.997 133.003,-172.997 280,-172.997z"/>
+   <glyph unicode="U" horiz-adv-x="650" d="M324.997 -14c154,0 270,90 270,240l0 474 -160 0 0 -460c0,-53.0026 -24.9974,-98 -110,-98 -84.9974,0 -110,44.9974 -110,98l0 460 -160 0 0 -474c0,-150 116,-240 270,-240z"/>
+   <glyph unicode="e" horiz-adv-x="580" d="M188.997 190l355.003 0c4,18.9974 6,38.9974 6,60 0,150.997 -108,264 -254,264 -158,0 -266,-115.003 -266,-264 0,-149.003 106,-264 276.997,-264 95.0026,0 169.003,34.9974 218,102.997l-120 69.0026c-20,-22 -54.9974,-38 -96,-38 -54.9974,0 -100.997,18 -120,70zm-2.99736 112c14,50.9974 52,78.9974 108.997,78.9974 45.0026,0 90,-20.9974 106,-78.9974l-214.997 0z"/>
+   <glyph unicode="y" horiz-adv-x="530" d="M370 500l-94 -306 -111.003 306 -164.997 0 198.997 -477.003c-22,-60.9974 -54.9974,-82.9974 -124.997,-82.9974l0 -140c140,-6.99736 228.997,56 284.997,214.997l171.003 485.003 -160 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Gilroy ExtraBold";font-variant:normal;font-style:normal;font-weight:800;src:url("#FontID0") format(svg)}
+    .fil1 {fill:#FEFEFE}
+    .fil2 {fill:#ECD14B}
+    .fil0 {fill:#DFB153}
+    .fnt0 {font-weight:800;font-size:1600.93px;font-family:'Gilroy ExtraBold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" x="3496.19" y="-0" width="3101.42" height="1480.85"/>
+  <text x="-96.06" y="1320.89"  class="fil1 fnt0">Hey!</text>
+  <text x="3554.06" y="1320.89"  class="fil1 fnt0">BUS</text>
+  <text x="3153.83" y="1320.89"  class="fil2 fnt0"> </text>
+ </g>
+</svg>
