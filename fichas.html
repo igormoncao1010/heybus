@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo de Chassis</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #111;
+      color: #f0c000;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+    }
+    .catalogo {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .catalogo h1 {
+      color: #fff;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(240, 192, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card h2 {
+      color: #fff;
+      margin: 15px 0 10px;
+    }
+    .card p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 15px;
+      background: #f0c000;
+      color: #111;
+      padding: 10px 15px;
+      border-radius: 4px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .card a:hover {
+      background: #ffe100;
+    }
+  </style>
+</head>
+<body>
+  <section class="catalogo">
+    <h1>Chassis Rodoviários Volvo e Scania</h1>
+    <div class="cards">
+      
+      <!-- Volvo B340R -->
+      <div class="card">
+        <img src="imagens/carros/01.png" />
+        <h2>Volvo B340R Euro 6</h2>
+        <p>Motor D11K 380cv | I-Shift | Suspensão a ar | Freios a disco</p>
+        <a href="volvo.html">Ver Ficha Técnica</a>
+      </div>
+
+      <!-- Scania K440 -->
+      <div class="card">
+        <img src="imagens/carros/03.png" alt="Scania K440 Euro 6" />
+        <h2>Scania K440 Euro 6</h2>
+        <p>Motor 440cv | Opticruise | ESP | Retarder | Conforto em longa distância</p>
+        <a href="scania.html">Ver Ficha Técnica</a>
+      </div>
+
+    </div>
+  </section>
+</body>
+</html>

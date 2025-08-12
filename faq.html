@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .header {
+      background: #000;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #C8A951;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      color: #ccc;
+      font-weight: 500;
+    }
+
+    nav a.ativo {
+      color: #C8A951;
+    }
+
+    main.faq {
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+
+    .faq h1 {
+      text-align: center;
+      color: #C8A951;
+      margin-bottom: 2.5rem;
+      font-size: 2.5rem;
+    }
+
+    .pergunta {
+      background-color: #1a1a1a;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #C8A951;
+      border-radius: 4px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .pergunta button {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: none;
+      border: none;
+      padding: 1.2rem 1.5rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #C8A951;
+      cursor: pointer;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+
+    .pergunta.ativa .icon {
+      transform: rotate(45deg); /* de + para × visual */
+    }
+
+    .resposta {
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 1.5rem;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+      color: #ccc;
+      font-size: 1rem;
+    }
+
+    .pergunta.ativa .resposta {
+      max-height: 300px;
+      padding: 0 1.5rem 1rem;
+    }
+
+    .footer {
+      background: #000;
+      text-align: center;
+      padding: 1rem;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .faq h1 {
+        font-size: 2rem;
+      }
+
+      .pergunta button {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .icon {
+        align-self: flex-end;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="imagens/logos/logs.svg" alt="Logo BlackDiamond Bus">
+    </a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre Nós</a>
+      <a href="faq.html" class="ativo">FAQ</a>
+    </nav>
+  </header>
+
+  <main class="faq">
+    <h1>Perguntas Frequentes</h1>
+
+    <div class="pergunta">
+      <button>
+        Quais tipos de ônibus a Hey! BUS oferece para aluguel?
+        <span class="icon">+</span>
+      </button>
+      <div class="resposta">
+        <p>Trabalhamos exclusivamente com modelos Volvo Euro 6 e elétricos, oferecendo o que há de mais moderno em tecnologia, conforto e sustentabilidade.</p>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <button>
+        É possível alugar ônibus para eventos corporativos?
+        <span class="icon">+</span>
+      </button>
+      <div class="resposta">
+        <p>Sim, somos especializados em atender eventos corporativos, feiras, congressos e transporte executivo personalizado para empresas de todos os portes.</p>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <button>
+        Como funciona o processo de orçamento?
+        <span class="icon">+</span>
+      </button>
+      <div class="resposta">
+        <p>Basta preencher o formulário de contato no site ou nos chamar via WhatsApp. Você informa os detalhes da viagem e nós retornamos com uma proposta personalizada rapidamente.</p>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <button>
+        Os veículos possuem acessibilidade?
+        <span class="icon">+</span>
+      </button>
+      <div class="resposta">
+        <p>Sim. Nossos ônibus contam com recursos de acessibilidade como elevadores, espaço reservado e estrutura adequada para garantir conforto a todos os passageiros.</p>
+      </div>
+    </div>
+
+    <div class="pergunta">
+      <button>
+        Atendem quais regiões?
+        <span class="icon">+</span>
+      </button>
+      <div class="resposta">
+        <p>Atendemos empresas em todo o Brasil, com forte presença em Brasília, Goiás, Bahia, Ceará e Maranhão.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Hey! BUS. Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    const perguntas = document.querySelectorAll('.pergunta');
+
+    perguntas.forEach(pergunta => {
+      const btn = pergunta.querySelector('button');
+      const icon = pergunta.querySelector('.icon');
+
+      btn.addEventListener('click', () => {
+        perguntas.forEach(p => {
+          if (p !== pergunta) {
+            p.classList.remove('ativa');
+            p.querySelector('.icon').textContent = '+';
+          }
+        });
+
+        const ativa = pergunta.classList.toggle('ativa');
+        icon.textContent = ativa ? '−' : '+';
+      });
+    });
+  </script>
+
+</body>
+</html>

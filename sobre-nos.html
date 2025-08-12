@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nós | Hey! BUS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .header {
+      background: #000;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #C8A951;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      color: #ccc;
+      font-weight: 500;
+    }
+
+    nav a.ativo {
+      color: #C8A951;
+    }
+
+    main.sobre-nos {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .intro h1 {
+      font-size: 3rem;
+      color: #C8A951;
+      margin-bottom: 0.5rem;
+    }
+
+    .intro p {
+      font-size: 1.3rem;
+      color: #ccc;
+    }
+
+    .historia .conteudo {
+      margin-bottom: 4rem;
+    }
+
+    .historia h2 {
+      font-size: 2rem;
+      color: #C8A951;
+      margin-bottom: 1rem;
+    }
+
+    .historia p {
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .missao-visao-valores {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    .missao-visao-valores .item {
+      flex: 1 1 300px;
+      background: #1a1a1a;
+      padding: 2rem;
+      border-left: 4px solid #C8A951;
+      border-radius: 4px;
+    }
+
+    .missao-visao-valores h3 {
+      margin-top: 0;
+      color: #C8A951;
+    }
+
+    .missao-visao-valores p,
+    .missao-visao-valores li {
+      color: #ccc;
+      font-size: 1rem;
+    }
+
+    .footer {
+      background: #000;
+      text-align: center;
+      padding: 1rem;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .intro h1 {
+        font-size: 2.2rem;
+      }
+
+      .intro p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="imagens/logos/logs.svg" alt="Logo BlackDiamond Bus">
+    </a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html" class="ativo">Sobre Nós</a>
+      <a href="index.html#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main class="sobre-nos">
+    <section class="intro">
+      <h1>Sobre a Hey! BUS</h1>
+      <p>Excelência em transporte executivo, sustentável e de alto padrão.</p>
+    </section>
+
+    <section class="historia">
+      <div class="conteudo">
+        <h2>Nossa História</h2>
+        <p>A Hey! BUS nasceu com a missão de redefinir o transporte coletivo de alto padrão. Atuando com veículos Volvo Euro 6 e 100% elétricos, unimos inovação, conforto e responsabilidade ambiental em cada trajeto.</p>
+        <p>Nos orgulhamos de atender empresas, eventos corporativos e delegações, garantindo pontualidade, segurança e um serviço premium em todo o Brasil.</p>
+      </div>
+    </section>
+
+    <section class="missao-visao-valores">
+      <div class="item">
+        <h3>Missão</h3>
+        <p>Oferecer soluções de transporte com excelência, sustentabilidade e conforto, superando as expectativas dos nossos clientes.</p>
+      </div>
+      <div class="item">
+        <h3>Visão</h3>
+        <p>Ser referência nacional em transporte executivo de passageiros com tecnologia limpa e atendimento personalizado.</p>
+      </div>
+      <div class="item">
+        <h3>Valores</h3>
+        <ul>
+          <li>Compromisso com a sustentabilidade</li>
+          <li>Segurança e conforto</li>
+          <li>Transparência e ética</li>
+          <li>Inovação contínua</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Hey! BUS. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
